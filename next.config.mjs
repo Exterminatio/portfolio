@@ -6,4 +6,11 @@ const nextConfig = {
 module.exports = nextConfig
 module.exports = {
   distDir: 'build',
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: './',
 }
+
+export default nextConfig;
