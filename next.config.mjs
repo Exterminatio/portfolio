@@ -11,6 +11,7 @@ module.exports = {
     path: '',
   },
   assetPrefix: './',
+  homepage: 'https://exterminatio.github.io/portfolio/'
 }
 
 export default nextConfig;
