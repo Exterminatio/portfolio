@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="lg:basis-4/12 basis-4/12 lg:items-center justify-left lg:flex lg:pl-20 hidden">
             <img
-              src="kek.jpg"
+              src="./kek.jpg"
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
           </div>
