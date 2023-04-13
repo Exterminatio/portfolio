@@ -8,7 +8,7 @@ module.exports = {
   distDir: 'build',
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
   assetPrefix: './',
   homepage: 'https://exterminatio.github.io/portfolio/'
