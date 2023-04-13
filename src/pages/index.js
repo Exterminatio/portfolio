@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="lg:basis-4/12 basis-4/12 lg:items-center justify-left lg:flex lg:pl-20 hidden">
             <img
-              src="kek.jpg"
+              src="kek.JPG"
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="flex lg:flex-row flex-col">
               <div className="basis-5/12">
                 <img
-                  src="lol.jpg"
+                  src="lol.JPG"
                   className="border-2 border-dark-green rounded-md"
                 ></img>
               </div>
