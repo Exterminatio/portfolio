@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { NavBar } from "@/components/NavBar";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,7 @@ export default function Home() {
               src="kek.JPG"
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
+            <Image src="kek.JPG"/>
           </div>
         </div>
         <div className="lg:ml-20 ml-10 w-full">
