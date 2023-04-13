@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { NavBar } from "@/components/NavBar";
-import Image from "next/image";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +30,9 @@ export default function Home() {
               <p className="lg:text-2xl text-lg text-light-green">
                 Technical support engineer
               </p>
-              <p className="lg:text-2xl text-lg text-light-green">React developer</p>
+              <p className="lg:text-2xl text-lg text-light-green">
+                React developer
+              </p>
               <p className="lg:text-lg text-xs mt-5 pr-10 text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -52,11 +54,12 @@ export default function Home() {
               src="kek.JPG"
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
-            <Image src="kek.JPG"/>
           </div>
         </div>
         <div className="lg:ml-20 ml-10 w-full">
-          <p className="lg:text-lg text-sm font-semibold flex text-white">Socials</p>
+          <p className="lg:text-lg text-sm font-semibold flex text-white">
+            Socials
+          </p>
           <div className="inline-block mr-4">
             <Link href="">
               <img src="linkedin.png" className="h-8"></img>
@@ -170,20 +173,36 @@ export default function Home() {
             <p className="lg:text-xl text-sm text-center text-white">SLA met</p>
           </div>
           <div className="lg:p-5 p-2 inline-block rounded-xl border-2 border-dark-green m-1 lg:mr-5">
-            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">0</p>
-            <p className="lg:text-xl text-sm text-center text-white">Negative surveys</p>
+            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">
+              0
+            </p>
+            <p className="lg:text-xl text-sm text-center text-white">
+              Negative surveys
+            </p>
           </div>
           <div className="lg:p-5 p-2 inline-block rounded-xl border-2 border-dark-green m-1 lg:mr-5">
-            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">30%</p>
-            <p className="lg:text-xl text-sm text-center text-white">Cases with happy surveys</p>
+            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">
+              30%
+            </p>
+            <p className="lg:text-xl text-sm text-center text-white">
+              Cases with happy surveys
+            </p>
           </div>
           <div className="lg:p-5 p-2 inline-block rounded-xl border-2 border-dark-green m-1 lg:mr-5">
-            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">0</p>
-            <p className="lg:text-xl text-sm text-center text-white">KPIs violated</p>
+            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">
+              0
+            </p>
+            <p className="lg:text-xl text-sm text-center text-white">
+              KPIs violated
+            </p>
           </div>
           <div className="lg:p-5 p-2 inline-block rounded-xl border-2 border-dark-green m-1 lg:mr-5">
-            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">3%</p>
-            <p className="lg:text-xl text-sm text-center text-white">Escalated cases</p>
+            <p className="font-semibold text-center text-natural-yellow lg:text-3xl text-xl">
+              3%
+            </p>
+            <p className="lg:text-xl text-sm text-center text-white">
+              Escalated cases
+            </p>
           </div>
           <p className="font-semibold text-natural-yellow flex lg:justify-center lg:mt-20 mt-10 lg:text-3xl text-xl">
             React developer

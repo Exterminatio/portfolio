@@ -10,7 +10,7 @@ module.exports = {
     loader: 'akamai',
     path: '/',
   },
-  assetPrefix: './',
+  assetPrefix: 'https://exterminatio.github.io/portfolio/',
   homepage: 'https://exterminatio.github.io/portfolio/'
 }
 
