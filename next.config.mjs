@@ -8,10 +8,12 @@ module.exports = {
   distDir: 'build',
   images: {
     loader: 'akamai',
-    path: 'https://exterminatio.github.io/portfolio/',
+    path: '/',
   },
-  assetPrefix: 'https://exterminatio.github.io/portfolio/',
-  homepage: 'https://exterminatio.github.io/portfolio/'
+  assetPrefix: './',
+  env: {
+    url: 'https://exterminatio.github.io/portfolio/'
+  }
 }
 
 export default nextConfig;
