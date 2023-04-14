@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <div className="lg:basis-4/12 basis-4/12 lg:items-center justify-left lg:flex lg:pl-20 hidden">
             <img
-              src="kek.JPG"
+              src="https://exterminatio.github.io/portfolio/kek.JPG"
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
           </div>
