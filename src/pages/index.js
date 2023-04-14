@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="lg:basis-4/12 basis-4/12 lg:items-center justify-left lg:flex lg:pl-20 hidden">
             <img
-              src={`${getURL}kek.JPG`}
+              src={`${getURL()}kek.JPG`}
               className="rounded-full h-80 border-natural-yellow border-2"
             ></img>
           </div>
@@ -63,17 +63,17 @@ export default function Home() {
           </p>
           <div className="inline-block mr-4">
             <Link href="">
-              <img src={`${getURL}linkedin.png`} className="h-8"></img>
+              <img src={`${getURL()}linkedin.png`} className="h-8"></img>
             </Link>
           </div>
           <div className="inline-block mr-4">
             <Link href="">
-              <img src={`${getURL}telegram.png`} className="h-8"></img>
+              <img src={`${getURL()}telegram.png`} className="h-8"></img>
             </Link>
           </div>
           <div className="inline-block mr-4">
             <Link href="">
-              <img src={`${getURL}facebook.png`} className="h-8"></img>
+              <img src={`${getURL()}facebook.png`} className="h-8"></img>
             </Link>
           </div>
         </div>
@@ -150,19 +150,19 @@ export default function Home() {
             ⚙️ Technical stack
           </p>
           <div className="inline-block mr-4">
-            <img src={`${getURL}ps.png`} className="h-8" title="PowerShell"></img>
+            <img src={`${getURL()}ps.png`} className="h-8" title="PowerShell"></img>
           </div>
           <div className="inline-block mr-4">
-            <img src={`${getURL}sql.png`} className="h-8" title="SQL"></img>
+            <img src={`${getURL()}sql.png`} className="h-8" title="SQL"></img>
           </div>
           <div className="inline-block mr-4">
-            <img src={`${getURL}swagger.png`} className="h-8" title="Swagger"></img>
+            <img src={`${getURL()}swagger.png`} className="h-8" title="Swagger"></img>
           </div>
           <div className="inline-block mr-4">
-            <img src={`${getURL}api.png`} className="h-8" title="API"></img>
+            <img src={`${getURL()}api.png`} className="h-8" title="API"></img>
           </div>
           <div className="inline-block mr-4">
-            <img src={`${getURL}iis.png`} className="h-8" title="IIS"></img>
+            <img src={`${getURL()}iis.png`} className="h-8" title="IIS"></img>
           </div>
           <p className="font-semibold text-light-green flex lg:text-2xl text-lg mt-10 mb-5">
             🏆 Achivements
@@ -225,7 +225,7 @@ export default function Home() {
             <div className="flex lg:flex-row flex-col">
               <div className="basis-5/12">
                 <img
-                  src={`${getURL}lol.JPG`}
+                  src={`${getURL()}lol.JPG`}
                   className="border-2 border-dark-green rounded-md"
                 ></img>
               </div>
@@ -239,26 +239,26 @@ export default function Home() {
                   ⚙️ Technical stack
                 </p>
                 <div className="inline-block mr-4">
-                  <img src={`${getURL}html.png`} className="h-10" title="HTML"></img>
+                  <img src={`${getURL()}html.png`} className="h-10" title="HTML"></img>
                 </div>
                 <div className="inline-block mr-4">
-                  <img src={`${getURL}css.png`} className="h-10" title="CSS"></img>
+                  <img src={`${getURL()}css.png`} className="h-10" title="CSS"></img>
                 </div>
                 <div className="inline-block mr-4">
-                  <img src={`${getURL}react.png`} className="h-10" title="React"></img>
+                  <img src={`${getURL()}react.png`} className="h-10" title="React"></img>
                 </div>
                 <div className="inline-block mr-4">
-                  <img src={`${getURL}nextjs.png`} className="h-10" title="Next JS"></img>
+                  <img src={`${getURL()}nextjs.png`} className="h-10" title="Next JS"></img>
                 </div>
                 <div className="inline-block mr-4">
                   <img
-                    src={`${getURL}tailwind.svg`}
+                    src={`${getURL()}tailwind.svg`}
                     className="h-10"
                     title="Tailwind CSS"
                   ></img>
                 </div>
                 <div className="inline-block mr-4">
-                  <img src={`${getURL}api.png`} className="h-10" title="API"></img>
+                  <img src={`${getURL()}api.png`} className="h-10" title="API"></img>
                 </div>
               </div>
             </div>
